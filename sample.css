@@ -1,0 +1,50 @@
+#output{
+
+    padding: 10px;
+    height: 400px; /* 中身のサイズより小さい値を指定  */
+    width: 800px;
+    box-sizing: border-box;
+    overflow-y: auto; /* 必要なときだけ縦方向のスクロールバーを表示 */
+    margin-bottom: 50px;
+    /* border: 1px solid; */
+    /* border-color: black; */
+    
+    background-color: lightskyblue;
+
+}
+
+#title{
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+body{
+    background-color: lightskyblue;
+}
+
+#myText-delete{
+    display: flex;
+}
+
+#myText{
+    width: 700px;
+}
+
+#myScreen{
+border: 1px solid;
+border-radius: 10px;
+
+background-color: white;
+margin-bottom: 20px;
+
+}
+#sendtime{
+    margin-bottom: 0px;
+    color: grey;
+}
+
+#myName{
+    text-decoration: underline;
+    font-weight: bold;
+}
